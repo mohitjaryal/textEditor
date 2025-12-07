@@ -1,1 +1,1 @@
-# Text Edito
+# Text Editor
