@@ -41,3 +41,5 @@ file_menu.add_command(label='Exit', command=root.quit)
 
 text = tk.Text(root, wrap=tk.WORD, font=('Helvetica', 12), fg='black')
 text.pack(expand=tk.YES, fill=tk.BOTH)
+
+root.mainloop()
