@@ -26,3 +26,4 @@ def save_file():
 
 root = tk.Tk()
 root.title('VrtX')
+root.geometry('800x600')
