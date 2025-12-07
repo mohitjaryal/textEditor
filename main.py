@@ -18,4 +18,6 @@ def open_file():
 # for save file
 def save_file():
     file_path = filedialog.askopenfilename(defaultextension='.txt',filetypes=[('Text Files','*.txt')])
-    
+    if file_path:
+        with open(file_path,'w'):
+            text.save
