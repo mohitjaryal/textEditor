@@ -1,3 +1,3 @@
 # Text Editor using Pyhton
 
-import tinkter as tk
+import tkinter as tk
