@@ -22,3 +22,7 @@ def save_file():
         with open(file_path,'w') as file:
             file.write(text.get(1.0,tk.END))
             messagebox.showinfo('Info', 'File saved Successfully')
+
+
+root = tk.Tk()
+root.title('VrtX')
