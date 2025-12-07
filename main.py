@@ -30,3 +30,4 @@ root.geometry('800x600')
 
 menu = tk.Menu(root)
 root.config(menu=menu)
+file_menu = tk.Menu(menu)
