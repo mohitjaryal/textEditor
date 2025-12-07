@@ -10,4 +10,4 @@ def new_file():
 def open_file():
     file_path = filedialog.askopenfilename (defaultextension='.txt',filetypes=[('Text Files','*.txt')])
     if file_path:
-        with open_file
+        with open(file_path)
