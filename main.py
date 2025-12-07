@@ -3,7 +3,7 @@
 import tkinter as tk
 from tkinter import filedialog, messagebox
 
-
+# for making new file
 def new_file():
     text.delete(1.0, tk.END)
 
