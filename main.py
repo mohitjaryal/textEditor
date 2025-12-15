@@ -7,22 +7,7 @@ def new_file():
 def open_file():
     file_path = filedialog.askopenfilename(
         defaultextension='.txt',
-        filetypes=[('Text Files', '*.txt')]
-    )
-    if file_path:
-        with open(file_path, 'r') as file:
-            content = file.read()
-            text.delete(1.0, tk.END)
-            text.insert(tk.END, content)
-
-def save_file():
-    file_path = filedialog.asksaveasfilename(
-        defaultextension='.txt',
-        filetypes=[('Text Files', '*.txt')]
-    )
-    if file_path:
-        with open(file_path, 'w') as file:
-            file.write(text.get(1.0, tk.END))
+        filetypes=[('Te
         messagebox.showinfo('Info', 'File saved successfully!')
 
 root = tk.Tk()
